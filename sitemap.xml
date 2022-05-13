@@ -21,7 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://phantasystardocs.github.io/tools/phantasy-star-universe-and-portable-series/common/general/</loc>
+         <loc>https://phantasystardocs.github.io/tools/phantasy-star-nova/common/common/</loc>
+         <lastmod>2022-05-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://phantasystardocs.github.io/tools/phantasy-star-online-2-es-and-idola-phantasy-star-saga/common/common/</loc>
+         <lastmod>2022-05-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://phantasystardocs.github.io/tools/phantasy-star-universe-and-portable-series/common/common/</loc>
          <lastmod>2022-05-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
