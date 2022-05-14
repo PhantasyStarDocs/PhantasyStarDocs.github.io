@@ -6,7 +6,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://phantasystardocs.github.io/discoveries/</loc>
+         <loc>https://phantasystardocs.github.io/file-formats/</loc>
          <lastmod>2022-05-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -47,6 +47,11 @@
     </url>
     <url>
          <loc>https://phantasystardocs.github.io/tools/phantasy-star-online-2/salon/salon/</loc>
+         <lastmod>2022-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://phantasystardocs.github.io/tools/phantasy-star-online-2/spreadsheets/spreadsheets/</loc>
          <lastmod>2022-05-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
