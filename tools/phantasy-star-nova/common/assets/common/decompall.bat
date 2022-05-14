@@ -1,1 +1,0 @@
-for /r %%i in (*.lua) do "C:\Program Files\Java\jre1.8.0_311\bin\java.exe" -jar unluac.jar "%%~dpni.lua" > "%%~dpni.decomplua" "%%i"
