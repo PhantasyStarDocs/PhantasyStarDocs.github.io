@@ -11,6 +11,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://phantasystardocs.github.io/file-formats/common-formats/lua/</loc>
+         <lastmod>2022-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://phantasystardocs.github.io/file-formats/common-formats/sega-formats/</loc>
+         <lastmod>2022-05-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://phantasystardocs.github.io/file-formats/common-formats/criware/acb/</loc>
          <lastmod>2022-05-21</lastmod>
          <changefreq>daily</changefreq>

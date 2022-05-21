@@ -6,23 +6,25 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Phantasy Star modding guides and tools">
+        <meta name="description" content="LUA - A scripting language used to make life easier for programmers in a number of games.">
       
       
       
-      <link rel="icon" href="/assets/favicon.png">
+        <link rel="canonical" href="https://phantasystardocs.github.io/file-formats/common-formats/lua/">
+      
+      <link rel="icon" href="../../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.15">
     
     
       
-        <title>PhantasyStarDocs</title>
+        <title>LUA - PhantasyStarDocs</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.c382b1dc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.c382b1dc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.cc9b2e1e.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -37,23 +39,23 @@
       
     
     
-      <link rel="stylesheet" href="/css/timeago.css">
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
-  <meta property="og:title" content="PhantasyStarDocs" />
+  <meta property="og:title" content="LUA - PhantasyStarDocs" />
   <meta property="og:type" content="webpage" />
-  <meta property="og:url" content="" />
+  <meta property="og:url" content="https://phantasystardocs.github.io/file-formats/common-formats/lua/" />
   <meta property="og:image" content="/assets/favicon.png" />
   <meta property="og:image:type" content="image/png" />
   
-    <meta property="og:description" content="Phantasy Star modding guides and tools">
+    <meta property="og:description" content="LUA - A scripting language used to make life easier for programmers in a number of games.">
   
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
@@ -79,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#lua" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -89,9 +96,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="PhantasyStarDocs" class="md-header__button md-logo" aria-label="PhantasyStarDocs" data-md-component="logo">
+    <a href="../../.." title="PhantasyStarDocs" class="md-header__button md-logo" aria-label="PhantasyStarDocs" data-md-component="logo">
       
-  <img src="/assets/icon.svg" alt="logo">
+  <img src="../../../assets/icon.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              LUA
             
           </span>
         </div>
@@ -201,7 +208,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -216,7 +223,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/tools/" class="md-tabs__link">
+      <a href="../../../tools/" class="md-tabs__link">
         Tools
       </a>
     </li>
@@ -232,7 +239,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/guides/" class="md-tabs__link">
+      <a href="../../../guides/" class="md-tabs__link">
         Guides
       </a>
     </li>
@@ -242,13 +249,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="/file-formats/" class="md-tabs__link">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
         File Formats
       </a>
     </li>
@@ -276,9 +285,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="PhantasyStarDocs" class="md-nav__button md-logo" aria-label="PhantasyStarDocs" data-md-component="logo">
+    <a href="../../.." title="PhantasyStarDocs" class="md-nav__button md-logo" aria-label="PhantasyStarDocs" data-md-component="logo">
       
-  <img src="/assets/icon.svg" alt="logo">
+  <img src="../../../assets/icon.svg" alt="logo">
 
     </a>
     PhantasyStarDocs
@@ -294,7 +303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -338,7 +347,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="/tools/">Tools</a>
+          <a href="../../../tools/">Tools</a>
           
             <label for="__nav_2">
               <span class="md-nav__icon md-icon"></span>
@@ -393,7 +402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/classic-phantasy-star/common/common/" class="md-nav__link">
+      <a href="../../../tools/classic-phantasy-star/common/common/" class="md-nav__link">
         Common
       </a>
     </li>
@@ -446,7 +455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-universe-and-portable-series/common/common/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-universe-and-portable-series/common/common/" class="md-nav__link">
         Common
       </a>
     </li>
@@ -501,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-zero/encryption-and-archives/archives/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-zero/encryption-and-archives/archives/" class="md-nav__link">
         Encryption and Archives
       </a>
     </li>
@@ -515,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-zero/graphics-data/graphics/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-zero/graphics-data/graphics/" class="md-nav__link">
         Graphics Data
       </a>
     </li>
@@ -578,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2/archives/archives/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2/archives/archives/" class="md-nav__link">
         Archives
       </a>
     </li>
@@ -592,7 +601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2/salon/salon/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2/salon/salon/" class="md-nav__link">
         Character Files
       </a>
     </li>
@@ -606,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2/graphics/graphics/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2/graphics/graphics/" class="md-nav__link">
         Graphics
       </a>
     </li>
@@ -620,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2/spreadsheets/spreadsheets/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2/spreadsheets/spreadsheets/" class="md-nav__link">
         Spreadsheets
       </a>
     </li>
@@ -634,7 +643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2/symbol-art/sa/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2/symbol-art/sa/" class="md-nav__link">
         Symbol Art
       </a>
     </li>
@@ -648,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2/misc/misc/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2/misc/misc/" class="md-nav__link">
         Misc
       </a>
     </li>
@@ -701,7 +710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-online-2-es-and-idola-phantasy-star-saga/common/common/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-online-2-es-and-idola-phantasy-star-saga/common/common/" class="md-nav__link">
         Common
       </a>
     </li>
@@ -754,7 +763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/tools/phantasy-star-nova/common/common/" class="md-nav__link">
+      <a href="../../../tools/phantasy-star-nova/common/common/" class="md-nav__link">
         Common
       </a>
     </li>
@@ -804,7 +813,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="/guides/">Guides</a>
+          <a href="../../../guides/">Guides</a>
           
             <label for="__nav_3">
               <span class="md-nav__icon md-icon"></span>
@@ -921,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides/hedgehog-engine/common/lighting/example.md" class="md-nav__link">
+      <a href="../../../guides/hedgehog-engine/common/lighting/example.md" class="md-nav__link">
         Example Guide
       </a>
     </li>
@@ -1043,7 +1052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides/hedgehog-engine/blueblur/files/xncp/basics.md" class="md-nav__link">
+      <a href="../../../guides/hedgehog-engine/blueblur/files/xncp/basics.md" class="md-nav__link">
         Basics
       </a>
     </li>
@@ -1057,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides/hedgehog-engine/blueblur/files/xncp/anims.md" class="md-nav__link">
+      <a href="../../../guides/hedgehog-engine/blueblur/files/xncp/anims.md" class="md-nav__link">
         Animations
       </a>
     </li>
@@ -1115,7 +1124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides/hedgehog-engine/blueblur/levels/glvl.md" class="md-nav__link">
+      <a href="../../../guides/hedgehog-engine/blueblur/levels/glvl.md" class="md-nav__link">
         Sonic GLvl
       </a>
     </li>
@@ -1242,7 +1251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides/others/marathon/levels/glvl.md" class="md-nav__link">
+      <a href="../../../guides/others/marathon/levels/glvl.md" class="md-nav__link">
         Sonic GLvl
       </a>
     </li>
@@ -1283,12 +1292,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -1306,7 +1317,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="/file-formats/">File Formats</a>
+          <a href="../../">File Formats</a>
           
             <label for="__nav_4">
               <span class="md-nav__icon md-icon"></span>
@@ -1327,14 +1338,16 @@
               
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
       
       
       
@@ -1405,7 +1418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/criware/acb/" class="md-nav__link">
+      <a href="../criware/acb/" class="md-nav__link">
         ACB
       </a>
     </li>
@@ -1419,7 +1432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/criware/adx/" class="md-nav__link">
+      <a href="../criware/adx/" class="md-nav__link">
         ADX
       </a>
     </li>
@@ -1433,7 +1446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/criware/afs/" class="md-nav__link">
+      <a href="../criware/afs/" class="md-nav__link">
         AFS
       </a>
     </li>
@@ -1447,7 +1460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/criware/awb/" class="md-nav__link">
+      <a href="../criware/awb/" class="md-nav__link">
         AWB
       </a>
     </li>
@@ -1461,7 +1474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/criware/cpk/" class="md-nav__link">
+      <a href="../criware/cpk/" class="md-nav__link">
         CPK
       </a>
     </li>
@@ -1475,7 +1488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/criware/hca/" class="md-nav__link">
+      <a href="../criware/hca/" class="md-nav__link">
         HCA
       </a>
     </li>
@@ -1494,11 +1507,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/file-formats/common-formats/lua/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          LUA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         LUA
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unluac" class="md-nav__link">
+    unluac
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1510,7 +1564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/common-formats/sega-formats/" class="md-nav__link">
+      <a href="../sega-formats/" class="md-nav__link">
         Sega Formats
       </a>
     </li>
@@ -1563,7 +1617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/file-formats/phantasy-star-nova/formats/formats.md" class="md-nav__link">
+      <a href="../../phantasy-star-nova/formats/formats.md" class="md-nav__link">
         Formats
       </a>
     </li>
@@ -1601,6 +1655,23 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unluac" class="md-nav__link">
+    unluac
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1611,7 +1682,41 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+  
+                
+
+
+<h1 id="lua">LUA</h1>
+<p>LUA is a scripting language found in a number of games. PSO2 and PS Nova use it rather frequently for much of the client logic. 
+While most of it is compiled in both games, PSO2 does feature a lot of uncompiled LUA and sometimes allows uncompiled LUA to be used in place of compiled LUA.
+As far as editing LUA code, there are countless resources on the web for this and it would seem best to allow the reader to enact their own judgement on which to use.</p>
+<h2 id="unluac">unluac</h2>
+<p>unluac is a lua 5.x decompiler. Phantasy Star Online 2 and Phantasy Star Nova use a hefty amount of LUA and should work well with this. An example .bat that decompiles ALL .lua files in its own folder and all folders below it can be found here, but must be edited to refereonce your PC's Java install directory. <a href="../../../assets/common/decompall.bat">decompall.bat</a></p>
+<p><a class="md-button md-button--primary" href="https://sourceforge.net/projects/unluac/" target="_blank">Download <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M480 352H346.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96c0-17.7-14.3-32-32-32zm-48 104c-13.2 0-24-10.8-24-24s10.8-24 24-24 24 10.8 24 24-10.8 24-24 24zm-198.6-81.4c6.2 6.3 14.4 9.4 22.6 9.4s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32-17.7 0-32 14.33-32 32v242.8l-73.4-73.4c-12.49-12.5-32.75-12.5-45.25 0-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg></span></a>
+<a class="md-button" href="http://hg.code.sf.net/p/unluac/hgcode/branches" target="_blank">Source Forge Repo</a></p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-05-21T22:57:42+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-05-21</span>
+      
+    
+  </small>
+</div>
+
+              
+
+  
+    <div class="metadata page-metadata">
+        <span class="contributors-text">Authors:</span>
+        <ul class="contributors" data-bi-name="contributors"><li>
+              - <span class="contributor">Shadow</span>
+            </li></ul>
+      </li>
+    </div>
+  
 
             </article>
           </div>
@@ -1645,14 +1750,14 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": ["navigation.instant", "navigation.tabs", "navigation.indexes", "navigation.sections"], "search": "/assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.indexes", "navigation.sections"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.a6c66575.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a6c66575.min.js"></script>
       
-        <script src="/js/timeago.min.js"></script>
+        <script src="../../../js/timeago.min.js"></script>
       
-        <script src="/js/timeago_mkdocs_material.js"></script>
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
     
   </body>
